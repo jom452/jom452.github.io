@@ -11034,3 +11034,13 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.bg-glass{
+  /* From https://css.glass */
+background: rgba(124, 222, 183, 0.61);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(0px);
+-webkit-backdrop-filter: blur(0px);
+border: 1px solid rgba(124, 222, 183, 0.3);
+}
